@@ -1,7 +1,7 @@
 {
     "name": "AutoUpdate",
     "version": "1.0",
-    "description": "A library for automatically updating your Drupi modules!",
+    "description": "A module for automatically updating your Drupi modules!",
     "main": "index.js",
     "author": "SlickNicky10",
     "tags": [],
