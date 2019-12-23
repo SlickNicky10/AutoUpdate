@@ -10,13 +10,13 @@ AutoUpdate is a Drupi module that automatically keeps all of your Drupi modules 
 Firstly, make sure that `Drupi` is installed on your server. If it isn't, you can download it from https://stacket.net/drupi. Once Drupi is installed, restart your server and execute the command `/drupi install AutoUpdate`. You can now use AutoUpdate!
 
 # How to use AutoUpdate
-AutoUpdate only does one thing: update your modules. However, you have control over when this happens. All you need to do is insert `require("AutoUpdate")` in your code, whenever you want it to run.
+AutoUpdate only does one thing: update your modules. However, you have control over when this happens. All you need to do is insert `require("AutoUpdate")()` in your code, whenever you want it to run.
 
 Example use:
 
 ```js
 // Check for updates before loading
-require("AutoUpdate");
+require("AutoUpdate")();
 
 const TaskUtils = require("TaskUtils");
 // ...
