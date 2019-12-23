@@ -1,4 +1,4 @@
-(function(){
+module.exports = () => {
     const log = message => java.lang.System.out.println(`[AutoUpdate] ${message}`);
     const dir = new java.io.File("plugins/Drupi/scripts/modules");
     const modules = dir.listFiles();
@@ -42,5 +42,4 @@
         log(`At least 1 installed module has been updated, reloading all scripts...`);
         server.dispatchCommand(org.bukkit.Bukkit.getConsoleSender(), "drupi reload");
     } else log("All modules are up to date.");
-}());
-module.exports = {};
+}
