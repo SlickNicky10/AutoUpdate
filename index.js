@@ -43,3 +43,4 @@
         server.dispatchCommand(org.bukkit.Bukkit.getConsoleSender(), "drupi reload");
     } else log("All modules are up to date.");
 }());
+module.exports = {};
