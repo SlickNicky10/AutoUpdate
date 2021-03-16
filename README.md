@@ -3,6 +3,9 @@ AutoUpdate module for use with Drupi. Download Drupi at https://stacket.net/drup
 
 The current latest version of AutoUpdate is **1.0**, and this documentation will always be in reference to the latest version of AutoUpdate.
 
+# DEPRECATED
+This module has been discontinued and will never be updated again.
+
 # What's AutoUpdate?
 AutoUpdate is a Drupi module that automatically keeps all of your Drupi modules up-to-date. Stop manually checking for updates for your favorite modules, let AutoUpdate do the hard work for you!
 
